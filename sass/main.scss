@@ -5,12 +5,14 @@
 @import "./components/container";
 @import "./components/btn";
 @import "./components/section-title";
-@import "./components/container";
-@import "./components/container";
-@import "./components/container";
-@import "./components/container";
 
-@import "./header";
-@import "./hero";
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/about";
+@import "./layout/features";
+@import "./layout/team";
+@import "./layout/clients";
+@import "./layout/footer";
+
 @import "./base/common";
 @import "./utils/hidden";
