@@ -14,10 +14,11 @@
   color: #afb1b8;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  &:hover, &:focus {
-  color: var(--accent-color);
-  border: 1px solid var(--accent-color);
-}
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+  }
 }
 
 .clients-item-icon {
@@ -30,6 +31,8 @@
   margin-right: auto;
 }
 
-.clients-item + .clients-item {
-  margin-left: 30px;
+.clients-item {
+  & + & {
+    margin-left: 30px;
+  }
 }

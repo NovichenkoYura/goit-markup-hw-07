@@ -77,6 +77,8 @@
   fill: currentColor;
 }
 
-.team-player-social + .team-player-social {
-  margin-left: 10px;
+.team-player-social {
+  & + & {
+    margin-left: 10px;
+  }
 }

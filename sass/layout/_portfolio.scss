@@ -15,8 +15,11 @@
   cursor: pointer;
 }
 
-.filter + .filter {
-  margin-left: 8px;
+.filter {
+  & + & {
+     margin-left: 8px;
+  }
+ 
 }
 
 .filter.current {

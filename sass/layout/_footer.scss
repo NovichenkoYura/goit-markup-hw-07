@@ -116,8 +116,10 @@
   fill: currentColor;
 }
 
-.footer-social-item + .footer-social-item {
-  margin-left: 10px;
+.footer-social-item {
+  & + & {
+    margin-left: 10px;
+  }
 }
 
 .footer-field {
