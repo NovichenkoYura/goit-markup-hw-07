@@ -54,31 +54,34 @@ visibility: hidden;
 v3.0.0 1.8mln download
 
 как упростить запись .check-text {
-  font-style: Regular;
-  font-size: 14px;
-  line-height: 1.71;
-  color: var(--secondary-text-color);
-  display: flex;
-  align-items: baseline;
-  &::before {
-    content: "";
-    width: 16px;
-    height: 15px;
-    border: 2px solid #212121;
-    border-radius: 2px;
-    margin-right: 8.38px;
-  }
+font-style: Regular;
+font-size: 14px;
+line-height: 1.71;
+color: var(--secondary-text-color);
+display: flex;
+align-items: baseline;
+&::before {
+content: "";
+width: 16px;
+height: 15px;
+border: 2px solid #212121;
+border-radius: 2px;
+margin-right: 8.38px;
+}
 }
 
 .policy-check:checked + .check-text::before {
-  border: none;
-  background-image: url(../images/icon-check.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+border: none;
+background-image: url(../images/icon-check.svg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
 }
 
 .policy-link {
-  color: var(--accent-color);
+color: var(--accent-color);
 }
 
+1.47.33, 1.50.04, 1.53.14, 1.57.37 - более сложная вложенность
+
+sass meister
