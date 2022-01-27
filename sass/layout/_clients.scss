@@ -14,16 +14,14 @@
   color: #afb1b8;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover, &:focus {
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+}
 }
 
 .clients-item-icon {
   fill: currentColor;
-}
-
-.clients-link-icon:hover,
-.clients-link-icon:focus {
-  color: var(--accent-color);
-  border: 1px solid var(--accent-color);
 }
 
 .clients-wrap {

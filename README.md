@@ -52,3 +52,33 @@ visibility: hidden;
                 Live Sass Compiler
 
 v3.0.0 1.8mln download
+
+как упростить запись .check-text {
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--secondary-text-color);
+  display: flex;
+  align-items: baseline;
+  &::before {
+    content: "";
+    width: 16px;
+    height: 15px;
+    border: 2px solid #212121;
+    border-radius: 2px;
+    margin-right: 8.38px;
+  }
+}
+
+.policy-check:checked + .check-text::before {
+  border: none;
+  background-image: url(../images/icon-check.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.policy-link {
+  color: var(--accent-color);
+}
+

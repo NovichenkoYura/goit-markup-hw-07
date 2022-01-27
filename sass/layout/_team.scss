@@ -66,16 +66,15 @@
   color: #afb1b8;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    color: var(--white);
+  }
 }
 
 .player-social-icon {
   fill: currentColor;
-}
-
-.player-social-link:hover,
-.player-social-link:focus {
-  background-color: var(--accent-color);
-  color: var(--white);
 }
 
 .team-player-social + .team-player-social {
