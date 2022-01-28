@@ -1,5 +1,7 @@
 @import "./utils/vars";
 @import "./base/reset";
+@import "./base/common";
+@import "./utils/hidden";
 
 //COMPONENTS
 @import "./components/container";
@@ -15,6 +17,3 @@
 @import "./layout/clients";
 @import "./layout/footer";
 @import "./layout/portfolio";
-
-@import "./base/common";
-@import "./utils/hidden";
