@@ -108,12 +108,18 @@
 
 .site-nav .link {
   color: var(--primary-text-color);
-  &:focus, &:hover{
-  color: var(--accent-color);
-}
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 .site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
   color: var(--accent-color);
 }
 
